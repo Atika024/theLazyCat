@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lazy Cat</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="images/mylazycatlogo.jpg">   
+    <script src="https://kit.fontawesome.com/cc7eb4500a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navigation bar with logo-->
+    <header>
+        <nav>
+            <div class="navbar">
+                <a href="index.html" class="logo">
+                    <img alt="blogLogo" src="images/mylazycatlogo.jpg">
+                </a>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="menu">
+                    <li><a class="menu-item" href="index.html">Home</a></li>
+                    <li><a class="menu-item" href="about.html">About</a></li>
+                    <li><a class="menu-item" href="blog.html">Blog</a></li>
+                    <li><a class="menu-item" href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>My Personal Blog</h1>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search" name="search">
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="subscribe">
+        <div class="subscribe-mssg">
+            <h1>Subscribe via email</h1>                    
+            <p>Enter your email address to subbcribe to the blog <br>and get email notifications about new posts</p>
+        </div>
+        <div class="in-email">
+            <form class="email-subscribe">
+                <input type="email" placeholder="email address">
+                <button type="submit">Subscribe</button>                        
+            </form>
+        </div>
+    </div>
+
+    <section id="recent">
+        <div class="title"> 
+            <h1>RECENT POSTS</h1>
+        </div>
+
+        <div class="post">
+            <img src="images/commitment.webp" class="post-image">
+            <div class="post-preview">
+                <h1 class="post-title"><a href="https://theblissfulmind.com/keeping-commitments/">How To Keep Commitments To Yourself</a></h1>
+                <i class="fa-solid fa-user">Catherine Beard</i>
+                <p class="preview-text">
+                    Do you struggle with keeping commitments to yourself? Here's how I've shifted my mindset to prioritize my goals and keep promises to myself.
+                </p>
+                <a href="https://theblissfulmind.com/keeping-commitments/" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="post">
+            <img src="images/BTS_ARMY.png" class="post-image">
+            <div class="post-preview">
+                <h1 class="post-title"><a href="https://www.billboard.com/music/music-news/bts-songs-best-hits-list-7549144/">10 Must-Listen BTS Songs</a></h1>
+                <i class="fa-solid fa-user">Tamar Herman</i>
+                <p class="preview-text">
+                    In 2013, BTS surged onto the K-pop scene as yet another hip-hop-inspired boy band. But this week, the group surpassed international boundaries as their newly released album, Wings, became the highest-charting Korean album to ever appear on the Billboard 200 when it debuted at No. 26.
+                </p>
+                <a href="https://www.billboard.com/music/music-news/bts-songs-best-hits-list-7549144/" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="post">
+            <img src="images/cats.webp" class="post-image">
+            <div class="post-preview">
+                <h1 class="post-title"><a href="https://www.insider.com/cat-signs-of-affection-2018-8">Behaviors that show a cat likes you</a></h1>
+                <i class="fa-solid fa-user">Sophia Mitrokostas</i>
+                <p class="preview-text">
+                    With their inscrutable faces and reputation for acting indifferent to their human keepers, cats can be difficult to read. Sure, they might not show their love with wagging tails and slobbery kisses like dogs. But that's because felines have their own ways of communicating their affection.
+                </p>
+                <a href="https://www.insider.com/cat-signs-of-affection-2018-8" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="social-links">
+            <li>
+                <a href="https://www.instagram.com/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+        </ul>
+        <span>theLazyCat@gmail.com</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
